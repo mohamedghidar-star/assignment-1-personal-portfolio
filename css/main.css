@@ -1,0 +1,177 @@
+body {
+    background-color: aliceblue;
+    font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Impact;
+    font-weight: 500;
+}
+
+
+/* utility classes */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 30px 40px;
+}
+.br-12px {
+    border-radius: 12px;
+}
+.c-l-blu {
+    color: rgb(6, 64, 83);
+}
+.mb-20px {
+    margin-bottom: 20px;
+}
+.ml-40px {
+    margin-left: 40px;
+}
+.clear-fix {
+    clear: both;
+}
+hr {
+    background-color: rgb(197, 215, 232);
+    border: none;
+    height: 2px;
+}
+
+
+/* header style start */
+header {
+    background-color: rgb(6, 64, 83);
+    color: #fff;
+    text-align: center;
+}
+header .job {
+    color: rgba(227, 227, 227, 0.573)
+}
+header .navbar a,
+#contact a{
+    background-color: rgba(235, 242, 252, 0.167);
+    color: rgb(239, 232, 232);
+    display: inline-block;
+    padding: 12px;
+    margin: 10px;
+    text-decoration: none;
+    cursor: pointer;
+}
+/* header style end */
+
+
+/* about start */
+#about {
+    background-color: #fff;
+
+}
+#about .about-content {
+    padding-top: 20px;
+}
+#about .about-image {
+    width: 15%;
+}
+#about .about-image img {
+    width: 150px;
+    height: 150px;
+    border: 2px solid rgb(197, 215, 232);
+    border-radius: 50%;
+}
+#about .item {
+    float: left;
+}
+#about .about-data {
+    padding-top: 20px;
+    /* width: 90%; */
+}
+#about .about-data p,
+#skills p,
+#experience p,
+#contact p,
+footer span {
+    color: rgb(140, 134, 134);
+    line-height: 1.5;
+}
+#about .about-data a {
+    background-color: rgb(6, 64, 83);
+    color: rgb(239, 232, 232);
+    display: inline-block;
+    padding: 12px;
+    margin-top: 12PX;
+    text-decoration: none;
+    cursor: pointer;
+}
+/* about end */
+
+
+/* skills start */
+#skills {
+    background-color: #fff;
+}
+#skills .skills-title p {
+    margin: 12px 0;
+}
+#skills .skills-item {
+    width: 25%;
+    padding: 10px;
+    float: left;
+}
+#skills .skills-item .inner {
+    background-color: rgba(243, 243, 243, 0.646);
+    padding: 12px;
+
+}
+/* skills end */
+
+
+/* experience start */
+#experience {
+    background-color: #fff;
+}
+#experience .experience-image {
+    width: 15%;
+    margin-right: 30PX;
+}
+#experience .experience-image img {
+    width: 100%;
+}
+#experience .experience-items .item1 {
+    float: left;
+}
+#experience h5 {
+    margin: 15px 0;
+}
+#experience .inner {
+    background-color: rgba(243, 243, 243, 0.646);
+    padding: 20px;
+    border-left: 3px solid rgb(6, 64, 83);
+}
+/* experience end */
+
+
+/* contact start */
+#contact {
+    background-color: rgb(6, 64, 83);
+    color: #fff;
+}
+/* contact end */
+
+
+/* footer start */
+footer{
+    background-color: rgb(1, 5, 9);
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+}
+/* footer end */
